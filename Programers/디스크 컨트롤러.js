@@ -4,7 +4,6 @@ function solution(jobs) {
     const pq=[];
     let i=0, time=0;
     while(i<jobs.length || pq.length!=0){
-            console.log(pq)
         
         if(i<jobs.length && jobs[i][0]<=time){
            pq.push(jobs[i++]);
